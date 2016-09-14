@@ -1,0 +1,44 @@
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #a7a3a5;
+	/*text-align: center;*/
+}
+
+#page-wrap {
+	overflow: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+
+}
+
+#lft {
+	float: left;
+	width: 30%;
+	margin-left: auto;
+	text-align: right;
+
+}
+
+#ctr {
+	float: left;
+	width: 30%;
+	margin: -7%;
+}
+
+#rgt {
+	float: left;
+	width: 30%;
+	text-align: left;
+	margin-right: auto;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
